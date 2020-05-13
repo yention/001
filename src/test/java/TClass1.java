@@ -31,16 +31,18 @@ public class TClass1 {
     @Test
     public void test005(){
         boolean toBe = false;
-
         boolean b = toBe || toBe;
+
         if(b) {
             System.out.println(toBe);
         }
+
         int child = 0;
 
         int a = 0;
         b = true;
         boolean c = false;
+
         System.out.println(a);
     }
 
